@@ -5,7 +5,7 @@ require 'pry'
 def key_for_min_value(name_hash)
   first_loop = true 
   lowest_key = nil 
-  lowest_value = 0 
+  #lowest_value = 0
   name_hash.each do |name, value|
     if first_loop
       first_loop = false  
